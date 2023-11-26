@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Функция для перехода на страницу
 function navigateTo(page) {
-    // Предположим, у вас есть функция makeApiRequest, которая возвращает Promise с объектом Response
     makeApiRequest()
         .then(response => {
             // Проверяем код ответа
